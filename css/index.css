@@ -174,7 +174,7 @@ footer nav a {
 }
 
 .top-pic{
-
+padding-left: 50px;
 max-width: 100%;
 height: auto;
 
@@ -223,7 +223,7 @@ background-color:dodgerblue;
 
 .container{
 	width:900px;
-	margin: auto;
+    
 }
 
 .bottom-content{
@@ -236,13 +236,13 @@ background-color:dodgerblue;
 	display: flex;
     flex-wrap: wrap;
     padding-top: 10px;
-    justify-content:flex-start ;
-
+    justify-content:space-around ;
+    
 }
 
 .wrap-bottom{
     width:900px;
-	margin: auto;
+	
 
 }
 
