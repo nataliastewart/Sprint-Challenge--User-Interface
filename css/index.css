@@ -52,7 +52,7 @@ table {
 
 * {
     box-sizing: border-box;
-    
+  
 }
 
 html, body {
@@ -174,10 +174,9 @@ footer nav a {
 }
 
 .top-pic{
-display:block;
-margin-left: auto;
-margin-right: auto;
-width: 60%;
+
+max-width: 100%;
+height: auto;
 
 }
 
@@ -220,3 +219,29 @@ width: 60%;
 #lightblue.box{
 background-color:dodgerblue;
 }
+
+
+.container{
+	width:900px;
+	margin: auto;
+
+}
+
+.bottom-content{
+        width:900px;
+        margin: auto;
+}
+
+.top-content {
+	display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+
+}
+
+.wrap-bottom{
+    width:900px;
+	margin: auto;
+
+}
+
