@@ -49,7 +49,7 @@ Margin - Clears an area outside the border. The margin is transparent
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-To center our box vertically we use the align-items property to align our item on the cross axis..
+To center our box vertically we use the align-items property to align our item on the cross axis.
 
 5. Explain why git is valuable to a team of developers.
 
