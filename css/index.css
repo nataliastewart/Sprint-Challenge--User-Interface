@@ -154,3 +154,8 @@ footer nav a {
     justify-content: space-evenly;
 }
 
+.nvbuttons a{
+    text-decoration:none;
+	color:black;
+}
+
