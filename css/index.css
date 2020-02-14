@@ -51,6 +51,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -169,7 +170,4 @@ footer nav a {
 	color:black;
 }
 
-*{
-    box-sizing:border-box
-}
 
