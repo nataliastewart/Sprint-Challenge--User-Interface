@@ -189,3 +189,31 @@ width: 60%;
 #blue2.box{
     background-color:cadetblue;
 }
+
+#orange.box{
+    background-color:coral;
+}
+
+#red.box{
+    background-color:crimson;
+}
+
+#green.box{
+    background-color:forestgreen;
+}
+
+#purple.box{
+    background-color:darkorchid;
+}
+
+#pink{
+    background-color:hotpink;
+}
+
+#darkpurple.box{
+    background-color:indigo;
+}
+
+#lightblue.box{
+background-color:dodgerblue;
+}
