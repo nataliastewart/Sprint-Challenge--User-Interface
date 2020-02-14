@@ -52,7 +52,7 @@ table {
 
 * {
     box-sizing: border-box;
-  
+    
 }
 
 html, body {
@@ -73,7 +73,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -155,20 +155,18 @@ footer nav a {
 /*--------My CSS starts here-------*/
 
 
-.firstbar .nvbuttons{
-    display:flex;
-    justify-content: space-evenly;
-    padding: 50px;
-}
 
-.firstbar a{
+
+.firstbar nav {
     display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: inline-block;
+
+	
 }
 
 
-.nvbuttons a{
+
+.nvbuttons {
     text-decoration:none;
 	color:black;
 }
@@ -227,7 +225,7 @@ background-color:dodgerblue;
 }
 
 .bottom-content{
-        width:900px;
+       padding-left:10px;
         margin: auto;
         padding-bottom:10px ;
 }
