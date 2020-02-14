@@ -157,13 +157,17 @@ footer nav a {
 
 
 
-.firstbar nav {
+.firstbar {
     display:flex;
-    display: inline-block;
-
-	
+	justify-content: space-evenly;
+	flex-direction: row;
 }
 
+
+img nav{
+    display:flex;
+    align-items: baseline;
+}
 
 
 .nvbuttons {
