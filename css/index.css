@@ -177,3 +177,15 @@ margin-right: auto;
 width: 60%;
 
 }
+
+#blue.box{
+   background-color: teal; 
+}
+
+#yellow.box{
+    background-color:gold;
+}
+
+#blue2.box{
+    background-color:cadetblue;
+}
