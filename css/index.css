@@ -144,3 +144,13 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*--------My CSS starts here-------*/
+
+
+.firstbar .nvbuttons{
+    display:flex;
+    justify-content: space-evenly;
+}
+
