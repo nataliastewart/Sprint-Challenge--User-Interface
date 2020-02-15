@@ -280,26 +280,17 @@ nav .links{
 .links{
     background-color: lightskyblue;
     width: 700px;
+    display: flex;
+    justify-content: center;
 }
 
 a{
     background-color: magenta;
+  
 }
 
 
-
-/*
-header nav .links{
-    width: 100%;
-    display:flex;
-    justify-content: space-evenly;
-    align-content: center;
-}
-*/
-
-
-
-/*--------limit to seperate links from the rest of the page----*/
+/*--------limit to seperate links and logo from the rest of the page----*/
 
 #body-about{
     margin: 0px 25% 0px 25%;
