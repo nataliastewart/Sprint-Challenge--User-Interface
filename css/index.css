@@ -251,9 +251,24 @@ background-color:dodgerblue;
 
 .wrap-bottom{
     width:900px;
-	
 
 }
+
+#home-footer{
+
+width:900px ;
+padding-top: 40px;
+}
+
+#home-footer a{
+    color:white;
+}
+
+
+
+
+
+
 
 /*-------- Start here my Css for ABOUT WEBSITE-----------*/ 
 
