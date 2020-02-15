@@ -158,6 +158,8 @@ display:flex;
 flex-direction: row;
 justify-content: space-around;
 width: 900px;
+padding-top: 10px;
+padding-bottom: 20px;
 }
 
 
@@ -185,10 +187,11 @@ justify-content: space-evenly;
 
 
 .top-pic{
-    width:100%;
+    width:900px;
     background-color:blue;
     display:flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 
@@ -262,10 +265,16 @@ width:900px ;
 padding-top: 40px;
 }
 
-#home-footer a{
-    color:white;
+#home-footer {
+    
+    display:flex;
+    justify-content: space-around;
 }
 
+#home-footer a{
+    color:white;
+
+}
 
 
 
@@ -388,6 +397,8 @@ button{
 }
 
 footer{
-    
+    display: flex;
+    justify-content: space-evenly;
     width: 800px;
+
 }
