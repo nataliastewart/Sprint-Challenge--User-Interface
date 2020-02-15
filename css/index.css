@@ -296,14 +296,17 @@ hr{
 .strategy{
     display:flex;
     flex-direction: column;
+    background-color: wheat;
+    padding:1% 1% 1% 1%;
 }
 
 .strategy-button{
-    padding: 1% 6% 1% 6%;
+    padding: 1% 1% 1% 1%;
 }
 
 .how-we-work{
-    padding-left: 60px;
+    padding:1% 1% 1% 1%;
+    background-color: thistle;
 }
 
 button{
@@ -315,15 +318,24 @@ button{
     flex-direction: row;
     background-color: violet;
     width: 800px;
+    justify-content: center;
 }
 
 
 .places-we-work{
     display:flex;
     flex-direction: column;
+    padding: 1% 1% 1% 1%;
+    background-color: tomato;
 }
 
-.places-we-work{
-    padding: 1% 6% 1% 6%;
+
+
+.collaboration{
+    padding: 1% 1% 1% 1%;
+    background-color: turquoise;
 }
 
+.places-we-work-button{
+    padding: 1% 1% 1% 1%;
+}
