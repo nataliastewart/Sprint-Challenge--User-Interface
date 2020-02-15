@@ -282,6 +282,7 @@ header nav .links{
 
 hr{
   border: 1px dashed black;  
+  width:800px;
 }
 
 .middle-pics{
@@ -291,12 +292,38 @@ hr{
   width: 800px;
 }
 
+
 .strategy{
     display:flex;
     flex-direction: column;
 }
 
+.strategy-button{
+    padding: 1% 6% 1% 6%;
+}
 
 .how-we-work{
     padding-left: 60px;
 }
+
+button{
+    padding: 1% 6% 1% 6%;
+}
+
+.bottom-pics{
+    display:flex;
+    flex-direction: row;
+    background-color: violet;
+    width: 800px;
+}
+
+
+.places-we-work{
+    display:flex;
+    flex-direction: column;
+}
+
+.places-we-work{
+    padding: 1% 6% 1% 6%;
+}
+
