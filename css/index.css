@@ -339,3 +339,14 @@ button{
 .places-we-work-button{
     padding: 1% 1% 1% 1%;
 }
+
+.lets-work{
+    padding: 20px;
+    background-color: lightskyblue;
+    width: 800px;
+}
+
+footer{
+    
+    width: 800px;
+}
