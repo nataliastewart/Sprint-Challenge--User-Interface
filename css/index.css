@@ -273,4 +273,10 @@ header nav .links{
     margin: 0px 25% 0px 25%;
 }
 
-.
+.container-about{
+   background-color: pink;
+   margin: 10px 5px;
+   padding:10px; 
+   width: 800px;
+   
+}
