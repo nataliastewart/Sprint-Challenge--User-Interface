@@ -278,5 +278,25 @@ header nav .links{
    margin: 10px 5px;
    padding:10px; 
    width: 800px;
-   
+}
+
+hr{
+  border: 1px dashed black;  
+}
+
+.middle-pics{
+  display:flex;
+  flex-direction: row;
+  background-color: teal;
+  width: 800px;
+}
+
+.strategy{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.how-we-work{
+    padding-left: 60px;
 }
