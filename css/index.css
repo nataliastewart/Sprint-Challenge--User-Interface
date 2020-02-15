@@ -153,32 +153,34 @@ footer nav a {
 /*--------My CSS starts here-------*/
 
 
-.topbox .firstbar .navbuttons{
+.topbox {
 display:flex;
 flex-direction: row;
-midth: 900px;
-
+justify-content: space-around;
+width: 900px;
 }
 
 
 .firstbar{
     width: 180px;
     background-color:purple;
-   
 }
 
 .navbuttons{
-    background-color:red;
-    width:700px;
-    margin-left:25%;
-} 
+    width: 743px;
+}
 
  .navbuttons a{
     display:flex;
     align-content: center;
     flex-direction: row;
     background-color: yellow;
-    width: 700px;
+    width: 720px;
+}
+
+.topbox a {
+display: flex;
+justify-content: space-evenly;
 }
 
 
