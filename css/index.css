@@ -257,17 +257,49 @@ background-color:dodgerblue;
 
 /*-------- Start here my Css for ABOUT WEBSITE-----------*/ 
 
+nav{
+    display:flex;
+    justify-content: row;
+    width: 800px;
+}
+
+
+
+
+nav .links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo{
+    background-color: lightgreen;
+    width: 180px;
+}
+
+.links{
+    background-color: lightskyblue;
+    width: 700px;
+}
+
+a{
+    background-color: magenta;
+}
+
+
+
+/*
 header nav .links{
     width: 100%;
     display:flex;
     justify-content: space-evenly;
     align-content: center;
 }
+*/
 
-.top-img {
-   display:flex;
-   background-color:red
-}
+
+
+/*--------limit to seperate links from the rest of the page----*/
 
 #body-about{
     margin: 0px 25% 0px 25%;
