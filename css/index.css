@@ -29,10 +29,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    margin:70px;
-    line-height: 1;
-    padding: 0 60px 0 60px;
-   
+    margin: 0% 20% 0% 20%;
+
+
+
 }
 ol, ul {
 	list-style: none;
@@ -155,32 +155,42 @@ footer nav a {
 /*--------My CSS starts here-------*/
 
 
+.topbox{
+display:flex;
+flex-direction: row;
+justify-content:flex-center;
+margin-left:15%;
+max-width: 100%;
+}
+.firstbar{
+    max-width: 30%;
+    background-color:purple;
+}
 
+.navbuttons{
+    background-color:red;
+    max-width: 75%;
+    margin-left:25%;
+}
 
-.firstbar {
+.topbox .navbuttons a{
+    padding-left:5%;
+    width: 100%;
     display:flex;
-	justify-content: space-evenly;
-	flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
 }
 
-
-img nav{
-    display:flex;
-    align-items: baseline;
-}
-
-
-.nvbuttons {
-    text-decoration:none;
-	color:black;
-}
 
 .top-pic{
-padding-left: 50px;
-max-width: 100%;
-height: auto;
-
+    max-width:100%;
+    height:auto;
+    background-color:blue;
+    display:flex;
+    justify-content: center;
+    
 }
+
 
 #blue.box{
    background-color: teal; 
@@ -249,5 +259,18 @@ background-color:dodgerblue;
 
 /*-------- Start here my Css for ABOUT WEBSITE-----------*/ 
 
+header nav .links{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
 
+.top-img {
+   display:flex;
+   background-color:red
+}
 
+#body-about{
+    margin: 25%;
+}
