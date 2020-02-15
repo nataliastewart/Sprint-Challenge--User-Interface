@@ -270,22 +270,23 @@ nav .links{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: baseline;
 }
 
 .logo{
-    background-color: lightgreen;
+    
     width: 180px;
 }
 
 .links{
-    background-color: lightskyblue;
+    
     width: 700px;
     display: flex;
     justify-content: center;
 }
 
 a{
-    background-color: magenta;
+    background-color:
   
 }
 
@@ -297,7 +298,7 @@ a{
 }
 
 .container-about{
-   background-color: pink;
+  
    margin: 10px 5px;
    padding:10px; 
    width: 800px;
@@ -311,7 +312,7 @@ hr{
 .middle-pics{
   display:flex;
   flex-direction: row;
-  background-color: teal;
+  
   width: 800px;
 }
 
@@ -319,7 +320,7 @@ hr{
 .strategy{
     display:flex;
     flex-direction: column;
-    background-color: wheat;
+    
     padding:1% 1% 1% 1%;
 }
 
@@ -329,7 +330,7 @@ hr{
 
 .how-we-work{
     padding:1% 1% 1% 1%;
-    background-color: thistle;
+    
 }
 
 button{
@@ -339,7 +340,7 @@ button{
 .bottom-pics{
     display:flex;
     flex-direction: row;
-    background-color: violet;
+    
     width: 800px;
     justify-content: center;
 }
@@ -349,14 +350,14 @@ button{
     display:flex;
     flex-direction: column;
     padding: 1% 1% 1% 1%;
-    background-color: tomato;
+    
 }
 
 
 
 .collaboration{
     padding: 1% 1% 1% 1%;
-    background-color: turquoise;
+    
 }
 
 .places-we-work-button{
@@ -365,7 +366,7 @@ button{
 
 .lets-work{
     padding: 20px;
-    background-color: lightskyblue;
+    
     width: 800px;
 }
 
