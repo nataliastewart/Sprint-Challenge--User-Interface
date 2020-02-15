@@ -31,8 +31,6 @@ footer, header, hgroup, menu, nav, section {
 body {
     margin: 0% 20% 0% 20%;
 
-
-
 }
 ol, ul {
 	list-style: none;
@@ -159,9 +157,10 @@ footer nav a {
 display:flex;
 flex-direction: row;
 justify-content:flex-center;
-margin-left:15%;
-max-width: 100%;
+
 }
+
+
 .firstbar{
     max-width: 30%;
     background-color:purple;
@@ -171,23 +170,22 @@ max-width: 100%;
     background-color:red;
     max-width: 75%;
     margin-left:25%;
-}
+} 
 
-.topbox .navbuttons a{
-    padding-left:5%;
-    width: 100%;
+ .navbuttons a{
     display:flex;
-    justify-content: space-evenly;
     align-content: center;
+    flex-direction: row;
+  background-color: yellow;
 }
 
 
 .top-pic{
-    max-width:100%;
-    height:auto;
+    width:100%;
     background-color:blue;
     display:flex;
     justify-content: center;
+   
     
 }
 
@@ -272,5 +270,5 @@ header nav .links{
 }
 
 #body-about{
-    margin: 25%;
+    margin: 0px 25% 0px 25%;
 }
