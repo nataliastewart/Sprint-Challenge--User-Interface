@@ -165,7 +165,8 @@ padding-bottom: 20px;
 
 .firstbar{
     width: 180px;
-    background-color:purple;
+   
+    padding-top: 20px;
 }
 
 .navbuttons{
@@ -176,13 +177,14 @@ padding-bottom: 20px;
     display:flex;
     align-content: center;
     flex-direction: row;
-    background-color: yellow;
+ 
     width: 720px;
 }
 
 .topbox a {
 display: flex;
 justify-content: space-evenly;
+padding-top: 20px;
 }
 
 
@@ -260,19 +262,20 @@ background-color:dodgerblue;
 }
 
 #home-footer{
-
 width:900px ;
-padding-top: 40px;
+padding-top: 30px;
+padding-bottom: 20px;
 }
 
 #home-footer {
-    
     display:flex;
     justify-content: space-around;
+    align-items: flex-start;
 }
 
 #home-footer a{
     color:white;
+display: flex;
 
 }
 
@@ -287,6 +290,8 @@ nav{
     display:flex;
     justify-content: row;
     width: 800px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 
@@ -297,6 +302,7 @@ nav .links{
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
+
 }
 
 .logo{
@@ -305,7 +311,7 @@ nav .links{
 }
 
 .links{
-    
+    padding-top: 10px;
     width: 700px;
     display: flex;
     justify-content: center;
