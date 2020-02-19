@@ -180,7 +180,8 @@ padding-bottom: 20px;
     display:flex;
     align-content: center;
     flex-direction: row;
- 
+    text-decoration: none;
+    color:black;
     width: 720px;
 }
 
